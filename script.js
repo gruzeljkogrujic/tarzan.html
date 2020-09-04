@@ -1,9 +1,9 @@
 var fotografije = [
-    aparati/crni.jpg,
-    aparati/crveni.jpg,
-    aparati/sivi.jpg,
-    fotokafa/foto1.jpg,
-    fotokafa/foto2.jpg,
+    slike1/crni.jpg,
+    slike1/crveni.jpg,
+    slike1/sivi.jpg,
+    slike2/foto1.jpg,
+    slike2/foto2.jpg,
 ];
 
 var slajder = document.getElementById("slajder");
