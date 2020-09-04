@@ -1,0 +1,193 @@
+* {
+    /*outline: 1px dashed red;*/
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+}
+
+h4 {
+    border: 1px dashed blueviolet;
+    width: fit-content;
+    float: right;
+    margin-right: 80px;
+}
+
+header {
+    padding: 20px;
+}
+
+.logo {
+    font-size: 60px;
+    color: blueviolet;
+    text-shadow:4px x 4px cyan;
+    background-color:whitesmoke ;
+}
+nav {
+    padding: 10px;
+    background-color: aqua;
+    color: white;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+
+}
+li {
+    font-size: 20px;
+    color: blue;
+    display: inline-block;
+    padding: 10px;
+}
+.dugme {
+    border: 1px solid rgb(rgb(168, 60, 102), green, blue);
+    border-radius: 10px;
+    margin-top: 3px;
+    margin-right: 55px;
+    opacity: 0.6;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(153, 41, 129);
+    padding: 3px;
+    float: right;
+}
+
+.container {
+    margin:auto;
+    margin-top: 30px;
+    width: 1200px;
+    height: 2000px;
+    /*border: 3px solid green; */
+    text-align: center;
+    
+}
+
+article {
+    position: relative;
+    width: 350px;
+    text-align-last: center;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+    border: 5px solid gainsboro;
+    scroll-padding-bottom: 30px;
+    z-index: 1;
+}
+
+.popust {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: goldenrod;
+    line-height: 80px;
+    font-size: 30px;
+    color: blue;
+    border-radius: 40px;
+    top: -30px;
+    right: -30px;
+}
+
+button {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: 1px solid darkgreen;
+    font-size:18px ;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+background-color: darkgreen;
+}
+
+p {
+float: right;
+border: 1px dashed rgb(167, 28, 28);
+margin-right: 30px;
+}
+
+img {
+    width: 100%;
+}
+
+/* .bot {
+    width: 300px;
+    height: 400px;
+    position: fixed;
+    bottom: -350px;
+    right: 20px;
+    background-color: darkgrey;
+    transition: all 1s;
+    z-index: 10;
+}
+
+.bot:hover {
+    bottom: 0; */
+
+
+/* #mapa {
+    width: 100%;
+    float: right;
+    padding-right: 40px;
+    padding-bottom: 30px; */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* div {
+    display: block;
+}
+#forma {
+    padding-left: 20px; */
+#prva-sekcija   {
+    width: 500px;
+    margin:auto;
+    margin-top:120px;
+}
+#prva-sekcija label {
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 5px;
+}
+#prva-sekcija input,
+#prvasekcija-textarea {
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(180,180,180);
+    font-size: 18px;
+    padding: 0px 2px;
+}
+#prva-sekcija textarea {
+    height: 150px;
+}
+
+#prva-sekcija button {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    background-color: rgb(44,83,44);
+    color: white;
+    border-radius: 10px;
+    text-transform: uppercase;
+    border: 1px solid rgb(30,56,30);
+    letter-spacing: 2px;
+    transition: all 0.3s;
+}
+
+
+
+
+#druga-sekcija{
+    height: 500px;
+}
+
+
+

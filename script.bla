@@ -1,0 +1,16 @@
+var fotografije = [
+    aparati/crni.jpg,
+    aparati/crveni.jpg,
+    aparati/sivi.jpg,
+    fotokafa/foto1.jpg,
+    fotokafa/foto2.jpg,
+];
+
+var slajder = document.getElementById("slajder");
+slajder.innerHTML = "<img src=' " + fotografije[0] + " '>";
+var brojac = 1;
+setInterval(function () {
+    slajder.innerHTML = "<img src=' " + fotografije[brojac] + " '>";
+    brojac++;
+    if (brojac == fotografije.length) brojac = 0;
+}, 2000);
